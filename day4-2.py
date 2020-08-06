@@ -1,0 +1,6 @@
+file=open('OIPWM9ZFA85.jpg','rb')
+a=file.read()
+file.close()
+file=open('copy.jpg','wb')
+file.write(a)
+file.close()
